@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load .env variables once
 
-from routers import brainstorm
+from app.routers import brainstorm
 
 app = FastAPI()
 
