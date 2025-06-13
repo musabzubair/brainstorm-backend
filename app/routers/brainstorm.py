@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from models.schema import BrainstormRequest
+from ..models.schema import BrainstormRequest
 import os
 import requests
 
